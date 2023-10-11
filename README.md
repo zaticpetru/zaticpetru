@@ -13,6 +13,7 @@ helping others 🎉
 - 📫 How to reach me: zatic.petru@outlook.com or via <a href="https://www.linkedin.com/in/petru-zatic/"><img width="20" src="image/README/1697010812374.png" alt="LinkedIn"></a>
 - ⚡ Fun fact: One interesting aspect of my life outside of work is my passion for diverse hobbies:
 
+<img src="hobbies01.svg" width="800" height="400" alt="Click to see the source">
 
 <!--
 **zaticpetru/zaticpetru** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -27,9 +28,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<div align="center">
-  <br>
-    <img src="hobbies.svg" width="800" height="400" alt="Click to see the source">
-  <br>
-</div>
