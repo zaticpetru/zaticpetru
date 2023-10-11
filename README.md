@@ -13,4 +13,4 @@ helping others 🎉
 - 📫 How to reach me: zatic.petru@outlook.com or via <a href="https://www.linkedin.com/in/petru-zatic/"><img width="20" src="image/README/1697010812374.png" alt="LinkedIn"></a>
 - ⚡ Fun fact: One interesting aspect of my life outside of work is my passion for diverse hobbies:
 
-<img src="hobbies02.svg" width="500" height="300" alt="Click to see the source">
+<img src="hobbies03.svg" width="500" height="300" alt="Click to see the source">
