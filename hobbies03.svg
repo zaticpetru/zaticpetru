@@ -5,6 +5,7 @@
         .hobby-grid {
         font-size: 0.9rem;
         font-family: "Tilt neon", sans-serif;
+        color: rgb(230, 237, 243);
         }
 
         .hobby-grid {
@@ -44,7 +45,7 @@
 
         .line {
         align-self: stretch;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid rgb(230, 237, 243);
         margin-block: 0.5rem
         }
       </style>
