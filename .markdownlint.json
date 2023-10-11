@@ -1,0 +1,6 @@
+{
+  "no-inline-html": false,
+  "MD034": false,
+  "line-length": false,
+  "first-line-heading": false
+}
