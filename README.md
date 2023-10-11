@@ -13,7 +13,7 @@ helping others 🎉
 - 📫 How to reach me: zatic.petru@outlook.com or via <a href="https://www.linkedin.com/in/petru-zatic/"><img width="20" src="image/README/1697010812374.png" alt="LinkedIn"></a>
 - ⚡ Fun fact: One interesting aspect of my life outside of work is my passion for diverse hobbies:
 
-<img align="center" src="hobbies01.svg" width="500" height="300" alt="Click to see the source">
+<img src="hobbies02.svg" width="500" height="300" alt="Click to see the source">
 
 <!--
 **zaticpetru/zaticpetru** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
