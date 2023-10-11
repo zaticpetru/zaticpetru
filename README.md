@@ -10,7 +10,7 @@ helping others 🎉
 - 🌱 I’m currently learning Next.js
 - 👯 I’m looking to collaborate on projects that tackle pressing issues like web accessibility, I'm open to trying new technologies because I'm more interested in the problem I'm solving than in the language I'm using to solve it.
 - 💬 Ask me about CSS
-- 📫 How to reach me: zatic.petru@outlook.com or via <a href="https://www.linkedin.com/in/petru-zatic/"><img src="image/README/1697010812374.png" alt="LinkedIn" class="inline-logo"></a>
+- 📫 How to reach me: zatic.petru@outlook.com or via <a href="https://www.linkedin.com/in/petru-zatic/"><img width="20" src="image/README/1697010812374.png" alt="LinkedIn"></a>
 - ⚡ Fun fact: One interesting aspect of my life outside of work is my passion for diverse hobbies:
 
 

@@ -1,67 +1,63 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-        .hobby-grid  {
-          font-size: 1.1rem;
-          font-family: "Tilt neon", sans-serif;
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .hobby-grid {
+        font-size: 1.1rem;
+        font-family: "Tilt neon", sans-serif;
         }
 
         .hobby-grid {
-          color: white;
-          display: grid;
-          grid-template-areas: "indoor outdoor";
-          grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-          gap: 4rem;
-          margin-inline: 2rem;
+        color: white;
+        display: grid;
+        grid-template-areas: "indoor outdoor";
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 4rem;
+        margin-inline: 2rem;
         }
-        
+
         .hobby-grid > div {
-          border: 0.2rem solid;
-          border-radius: 0 2rem;
-          padding: 1rem;
-          transition: opacity 300ms;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        border: 0.2rem solid;
+        border-radius: 0 2rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         }
-        
+
         .indoor {
-          grid-area: indoor;
+        grid-area: indoor;
         }
-        
+
         .outdoor {
-          grid-area: outdoor;
+        grid-area: outdoor;
         }
-        
-        .label {
-          font-weight: 900;
-          font-size: 1.3rem;
-          word-spacing: 5px;
-          opacity: 1;
-          z-index: 1;
+
+        .hobby-grid span {
+        font-weight: 900;
+        font-size: 1.3rem;
+        word-spacing: 5px;
+        opacity: 1;
         }
-        
-        .description {
-          opacity: 0;
+
+        .line {
+        align-self: stretch;
+        border-bottom: 2px solid white;
+        margin-block: 0.5rem
         }
-        
-        .label:hover {
-          opacity: 0;
-        }
-        
-        .label:hover + .description {
-          opacity: 1;
-        }
-			</style>
-			<div class="hobby-grid">
-        <div class="indoor label">
-          Indoor 🏡
-        </div>
-        <div class="indoor description">At home, I'm an board game enthusiast 🎲, with a growing collection of them.</div>
-        <div class="outdoor label">Outdoor 🏞</div>
-      <div class="outdoor description">When I'm on vacation, my wife and I seek adventure in the great outdoors, whether it's hiking up mountains 🌄 or swimming to nearby islands 🏊‍♀️.</div>
+      </style>
+      <div class="hobby-grid">
+        <div class="indoor">
+          <span>Indoor 🏡</span>
+          <div class="line"></div> At home, I'm an board game enthusiast 🎲,
+          with a growing collection of them. </div>
+        <div class="outdoor">
+          <span>Outdoor 🏞</span>
+          <div class="line"></div> When I'm on vacation, my wife and I seek
+          adventure in the great outdoors, whether it's hiking up mountains 🌄 or swimming to nearby
+          islands 🏊‍♀️. </div>
       </div>
-		</div>
-	</foreignObject>
+    </div>
+  </foreignObject>
 </svg>
