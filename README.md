@@ -14,3 +14,5 @@ helping others 🎉
 - ⚡ Fun fact: One interesting aspect of my life outside of work is my passion for diverse hobbies:
 
 <img src="hobbies03.svg" width="500" height="300" alt="Click to see the source">
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zaticpetru&layout=compact&theme=dark)
