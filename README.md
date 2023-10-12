@@ -6,7 +6,7 @@
 Hello there, I’m a Fullstack dev with 5+ years of love for continuous learning and
 helping others 🎉
 
-- 🔭 I’m currently working on ...
+- 🔭 I’m currently in to CSS ✨
 - 🌱 I’m currently learning Next.js
 - 👯 I’m looking to collaborate on projects that tackle pressing issues like web accessibility, I'm open to trying new technologies because I'm more interested in the problem I'm solving than in the language I'm using to solve it.
 - 💬 Ask me about CSS
