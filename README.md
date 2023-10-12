@@ -14,7 +14,20 @@ helping others 🎉
 - ⚡ Fun fact: One interesting aspect of my life outside of work is my passion for diverse hobbies:
 
 <br/>
-<img src="hobbies03.svg" width="500" height="300" alt="Click to see the source">
+<!-- <img src="hobbies04-dark.svg" width="500" height="300" alt="Click to see the source">
+<img src="hobbies04-light.svg" width="500" height="300" alt="Click to see the source"> -->
+
+<picture>
+  <source
+    srcset="hobbies04-dark.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="hobbies04-light.svg"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="hobbies04-light.svg" />
+</picture>
 
 [![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=zaticpetru&theme=dark&show_icons=true&hide_rank=true&include_all_commits=true#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
 [![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=zaticpetru&theme=default&show_icons=true&hide_rank=true&include_all_commits=true#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
