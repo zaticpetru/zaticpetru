@@ -1,0 +1,153 @@
+/* Breakpoints */
+/* 576px */
+/* 768px */
+/* 992px */
+/* 1200px */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --none-max-width: 576px;
+  --md-max-width: 720px;
+  --lg-max-width: 960px;
+  --xl-max-width: 1100px;
+
+  --gutter: 2rem;
+  --sm-gutter: 0.8rem;
+
+  --main-width: minmax(0,auto);
+  --aside-width: minmax(0,300px);
+
+  --border-radius: 0.8rem;
+  --card-background: #1b1f23;
+}
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-block: var(--gutter);
+  max-width: var(--none-max-width);
+}
+
+.content {
+  column-gap: var(--gutter);
+  display: grid;
+  grid-template-columns: minmax(0,1fr);
+  grid-template-rows: auto;
+  row-gap: var(--gutter);
+}
+
+.content.main-aside {
+  padding: var(--sm-gutter);
+  grid-template-areas:
+      "main"
+      "aside";
+}
+
+
+@media screen and (min-width: 576px) {
+  .container.container-reflow {
+    overflow: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container.container-reflow {
+    max-width: unset;
+    width: var(--md-max-width);
+  }
+  
+  .content.main-aside {
+      grid-template-areas: "main aside";
+      grid-template-columns: var(--main-width) var(--aside-width);
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .container.container-reflow {
+    width: var(--lg-max-width);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container.container-reflow {
+    width: var(--xl-max-width);
+  }
+}
+
+.main {
+  grid-area: main;
+  border: 1px solid black;
+}
+
+.aside {
+  grid-area: aside;
+  border: 1px solid black;
+}
+
+.card {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  padding: var(--sm-gutter) var(--gutter);
+  padding-block-end: 2rem;
+  margin-block-end: var(--sm-gutter);
+}
+
+.banner > img {
+  width: 100%;
+  aspect-ratio: 4 / 1;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.banner {
+  margin: -0.8rem -2rem;
+}
+
+.pill {
+  --color: white;
+  display: inline-block;
+  border: solid 1px var(--color);
+  border-radius: 5rem;
+  padding: 0.1rem 0.6rem;
+}
+
+.date {
+  --color: rgba(255, 255, 255, 0.6);
+  color: var(--color);
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-block: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:focus {
+  color: #71b7fb;
+  text-decoration: underline;
+}
+
+a:after {
+  content: '🔗';
+  font-size: smaller;
+}
+
+ul {
+  padding-inline-start: var(--gutter);
+  list-style: square;
+}
