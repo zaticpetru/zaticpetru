@@ -143,5 +143,19 @@ address {
 
 .project-description {
   background: hsl(350 100% 88% / 0.2);
-  padding-inline: var(--spacing);
+  padding: calc(var(--spacing-s));
+  margin-inline-start: calc(-1 * var(--spacing-s));
+  & p {
+    margin-block: var(--spacing-s);
+    &:first-of-type {
+      margin-block-start: 0;
+    }
+    &:last-of-type {
+      margin-block-end: 0;
+    }
+  }
+}
+
+ul {
+  margin-block: var(--spacing-s);
 }
