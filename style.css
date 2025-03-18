@@ -20,6 +20,11 @@ h4 {
   margin-block: var(--spacing-s);
 }
 
+h3 {
+  font-size: 1rem;
+  text-shadow: 0px 0px 1px lightsteelblue;
+}
+
 h2 {
   margin: 0;
 }
@@ -62,7 +67,8 @@ a:focus {
   text-decoration: underline;
 }
 
-a:visited, a {
+a:visited,
+a {
   color: #013db2;
 }
 
