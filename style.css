@@ -62,8 +62,15 @@ a:focus {
   text-decoration: underline;
 }
 
-a:visited {
-  color: blue;
+a:visited, a {
+  color: #013db2;
+}
+
+hgroup a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -100,7 +107,8 @@ h1 {
 }
 
 address {
-  grid-column: 3;
+  grid-column: span 2;
+  margin-block-start: 0.5rem;
   > * {
     margin-block: 0.2rem;
   }
